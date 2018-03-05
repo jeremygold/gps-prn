@@ -33,7 +33,7 @@ def shift(register, feedback, output):
 # example:
 
 prn=''
-for i in range(100):
+for i in range(200):
     prn += str(shift(G1, [3,10], [10]))
     # print (G1)
 
